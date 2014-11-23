@@ -1,7 +1,5 @@
 <?php
-//koneksi database
-$conn = mysql_connect('localhost', 'root', '');
-mysql_select_db('galeri');
+include "koneksi.php";
 //upload file
 if(!empty($_FILES) && $_FILES['file']['size'] > 0 && $_FILES['file']['error'] == 0){
     $fileName = $_FILES['file']['name'];
