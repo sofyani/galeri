@@ -13,3 +13,4 @@ if(!empty($_FILES) && $_FILES['file']['size'] > 0 && $_FILES['file']['error'] ==
         exit;
     }
 }
+?>

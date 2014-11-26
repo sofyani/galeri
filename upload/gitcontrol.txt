@@ -1,0 +1,28 @@
+membuat git repo baru
+git init "nama folder repositori"
+
+add file git
+git add "namafile"
+melihat status file
+git status
+memberi komentar bila terjadi perubahan
+git commit -m "namakomntar"
+membuat branch
+git branch "nama branch"
+menyatukan branch
+git marge "nama branch"
+merubah branch
+git checkout -b dev
+
+memasukan file ke sentral
+git push 'nama url"
+memasukan file ke local:
+git pull
+
+
+
+git add "nama folder"
+git add "."
+
+
+tugas buat project jangka panjang 
