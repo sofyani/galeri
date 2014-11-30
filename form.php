@@ -8,5 +8,6 @@
                 deskription : <textarea name="deskripsi" id="deskripsi"></textarea><br />
                 <input type="submit" name="save" value="Upload" />
     </form>
+<a href="formbanyak.php">Tamabah banyak foto</a>
 </body>
 </html>
