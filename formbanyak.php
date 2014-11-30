@@ -4,7 +4,7 @@
 <title></title>
 </head>
 <body>
-<div>
+<div id="header">
 <?php 
 include "koneksi.php";
 include "header.php"; ?>
