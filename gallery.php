@@ -108,11 +108,10 @@ include "koneksi.php";
         while($row = mysql_fetch_array($result)){
         ?>
             <td>
-                <a href="upload/<?php echo $row['nama_file'];?>"><img src="upload/<?php echo $row['nama_file'];?>" alt="" width="200" border="0"/>
+                <a rel="example_group" href="upload/<?php echo $row['nama_file'];?>"><img src="upload/<?php echo $row['nama_file'];?>" alt="" width="200" border="0"/>
                 </a>
                 <br/><?php echo $row['deskripsi'];?>
                 <br/>
-<a href="delet-gallery.php?id=<?php echo $row['id'];?>" onclick="return confirm('Anda yakin?');">Delete</a>
             </td>
         <?php
             if($i % 3 == 0){

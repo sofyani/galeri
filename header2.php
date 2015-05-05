@@ -11,10 +11,10 @@
 <div id="header">
 <div id="navigation">
 			<ul>
-				<li><a href="index.php">Gallery</a></li>
-				<li><a href="#">Tambah foto</a></li>
-				<li><a href="#">Hapus foto</a></li>
-                <li><a href="php-jquery-login/index.html">Login</a></li>
+				<li><a href="home.php">Gallery</a></li>
+				<li><a href="form.php">Tambah foto</a></li>
+				<li><a href="select.php">Hapus foto</a></li>
+                <li><a href="login.php">Login</a></li>
 </ul>
 </div>
 </div>

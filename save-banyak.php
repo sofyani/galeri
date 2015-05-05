@@ -11,4 +11,7 @@ if(!empty($_FILES) && $_FILES['file'.$s]['size'] > 0 && $_FILES['file'.$s]['erro
         mysql_query($sql);
 }
 }
+mysql_query("ALTER TABLE foto drop 'id'");
+mysql_query("ALTER TABLE `foto` ADD `id` INT(3) NOT NULL AUTO_INCREMENT PRIMARY KEY FIRST");
+echo "<meta http-equiv=\"Refresh\" content=\"1;url=index.php\" >";
 ?>
